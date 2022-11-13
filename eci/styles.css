@@ -1,0 +1,62 @@
+* {
+    background-color: #ffffff;
+}
+img{
+    width: 150px;
+    height: 50px;
+    float: left top;
+    background-image: none;
+    margin-left: 50px;
+
+}
+header a{
+    float: right;
+    margin: 0 3px 0 3px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color:black;
+
+    
+}
+header i{
+    display: inline;
+    background-color: none;
+    margin-left: 50px;
+
+}
+nav{
+    border: 1px solid white;
+    overflow: hidden;
+    margin-left: 50px;
+
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: white;
+    padding: 10px;
+    text-align: justify;
+}
+nav button{
+    background-color: green;
+    border-color: green 1px solid;
+    width: fit-content;
+    height: 40px;
+    color: yellow;
+}
+div > main{
+    margin-left: 50px;
+
+}
+div button{
+    height: 30px;
+    width: fit-content;
+    background-color: green;
+    color: yellow;
+
+}
+aside h3{
+    text-align: justify;
+    display: inline;
+    width: 200px;
+}
