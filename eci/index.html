@@ -6,18 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
     <title>ECI</title>
 </head>
 <body>
     <header>
-        <img src="./images/descarga.png" alt="logo viajes el corte inglés">
-        <a href="#">911 22 00 44  <i class="fa fa-solid fa-phone"></i></a> 
-        <a href="">Identificarse    <i class="fa fa-solid fa-user"></i></a>
-        <a href="">Preguntas Frecuentes  <i class="fa fa-sharp fa-solid fa-info"></i></a>
-        <a href="" >Agencias  <i class="fa fa-regular fa-lightbulb"></i></a>
+        <img class="logo" src="./images/descarga.png" alt="logo viajes el corte inglés">
+        <i class="fa fa-solid fa-phone"> <a href="#">911 22 00 44 </a></i>  
+        <i class="fa fa-solid fa-user"><a href="">Identificarse </a> </i>
+        <i class="fa fa-sharp fa-solid fa-info"><a href="">Preguntas Frecuentes </a> </i> 
+        <i class="fa fa-regular fa-lightbulb"> <a href="" >Agencias</a></i> 
     </header>
     <nav>
-<button>menu</button>
+<button class="body__nav--button">menu</button>
 <a href="">multidestino</a>
 <a href="">vuelo+hotel</a>
 <a href="">circuitos</a>
@@ -29,10 +30,9 @@
 <a href="">hoteles</a>
 <a href="">vuelos</a>
 <a href="">trenes</a>
-
     </nav>
-</body>
 <main>
+    <p>Inicio > Ofertas</p>
     <div class="nav2">
         <button>Zona</button>
         <button>Duración</button>
@@ -43,82 +43,123 @@
         <button>Precios</button>
 
     </div>
-    <fieldset>
-        <section>
-            <img src="" alt="">
-            <h3>verano en cerdeña</h3>
-            <h2>precio</h2>
-            <button>mas información</button>
+    <fieldset class="container">
+        <section class="fieldset__section1">
+            <img  src="./images/istockphoto-886958930-612x612.jpeg" alt="foto de cerdeña">
+            <h2>Escápate a Cerdeña</h2>
+            <p class="fieldset__section--p">Aprovecha la oferta</p>
+            <h2 class="fieldset__section--h2">519€ <button class="fieldset__section--button">más información</button> </h2>
+            
+
         </section>
-        <section>
-            <img src="" alt="">
-            <h3>Toscana Gastronómica</h3>
-            <h2>precio</h2>
-            <button>mas información</button>
+        <section class="fieldset__section1">
+            <img  src="./images/istockphoto-886958930-612x612.jpeg" alt="foto de cerdeña">
+            <h2>Escápate a Cerdeña</h2>
+            <p class="fieldset__section--p">Aprovecha la oferta</p>
+            <h2 class="fieldset__section--h2">519€ <button class="fieldset__section--button">más información</button> </h2>
+            
         </section>
-        <section>
-            <img src="" alt="">
-            <h3>Fiordos Noruegos</h3>
-            <h2>precio</h2>
-            <button>mas información</button>
+        <section class="fieldset__section1">
+            <img  src="./images/istockphoto-886958930-612x612.jpeg" alt="foto de cerdeña">
+            <h2>Escápate a Cerdeña</h2>
+            <p class="fieldset__section--p">Aprovecha la oferta</p>
+            <h2 class="fieldset__section--h2">519€ <button class="fieldset__section--button">más información</button> </h2>
+            
         </section>
-        <section>
-            <img src="" alt="">
-            <h3>Múnich y Europa Park</h3>
-            <h2>precio</h2>
-            <button>mas información</button>
+        <section class="fieldset__section2">
+            <img src="./images/descarga (1).jpeg" alt="foto de la toscana">
+            <h2>Escápate a la Toscana</h2>
+            <p class="fieldset__section--p">Aprovecha la oferta</p>
+            <h2 class="fieldset__section--h2">873€ <button class="fieldset__section--button">más información</button></h2>
+            
+
+        </section>
+        
+        <section class="fieldset__section3">
+            <img src="./images/descarga.jpeg" alt="foto de Fiordos">
+            <h2>Escápate a Los Fiordos</h2>
+            <p class="fieldset__section--p">Aprovecha la oferta</p>
+            <h2 class="fieldset__section--h2">763€<button class="fieldset__section--button">más información</button> </h2>
+            
+        </section>
+        <section class="fieldset__section4">
+            <img src="./images/descarga (2).jpeg" alt="foto de Munich">
+            <h2 >Escápate a Alemania</h2>
+            <p class="fieldset__section--p">Aprovecha la oferta</p>
+            <h2 class="fieldset__section--h2">1293€ <button class="fieldset__section--button">más información</button> </h2>   
+
         </section>
     </fieldset>
-    <aside>
-        <p>ofertas de viajes</p>
-        <h3>blablablablablablablablablabalbalbakjsdfhskfskfhsfsjfhkshfksfsjkfhsbfsjfhsjfbsfbsjkfsdbfblablablablablablablablablabalbalbakjsdfhskfskfhsfsjfhkshfksfsjkfhsbfsjfhsjfbsfbsjkfsdbfss</h3>
-        <div class="footer">
-            <i></i> <p>vuelos baratos</p>
-            <i></i> <p>vuelo+hotl</p>
-            <i></i><p>circuitos</p>
-            <i></i> <p>mayores</p>
-            <i></i> <p>parques temáticos</p>
-            <i></i><p>última hora</p>
-            <i></i><p>europa</p>
-            <i></i><p>caribe</p>
+</main>
+<aside class="box"> 
+    <div class="aside__div"> 
+        <h3 class="aside__div--title">OFERTAS DE VIAJES</h3><br><br>
+        <span class="aside__div--span">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur est voluptates fugiat voluptatem rerum? Consequatur corrupti et, tempora quo eligendi provident officiis inventore id, odio error repellendus porro reprehenderit, amet minima optio eius consectetur nesciunt maiores mollitia repellat iusto. Totam consectetur nisi beatae debitis blanditiis veniam et officiis deleniti fugiat? Modi qui cupiditate, voluptates maiores cum, iure rerum ipsam culpa nihil amet cumque. Repudiandae et culpa harum quos necessitatibus fugit odio. Maiores, earum. Quam laborum, deleniti dolorum quibusdam inventore amet sed iusto doloribus, perspiciatis pariatur quisquam qui facilis repellendus nemo ipsum eaque. Unde ad fuga officia necessitatibus quibusdam explicabo atque. Odit ut officia veniam eos omnis? Iste inventore provident ex, corrupti doloribus quia repellendus ipsam impedit facere, quas sed voluptas numquam necessitatibus non dolorum ipsa minus saepe. Amet nam quia laudantium harum nemo id nulla ab facilis, enim error at eveniet aspernatur labore necessitatibus neque doloremque excepturi aliquam est fuga! Quas, tempore accusamus. Nihil, quam asperiores. Labore aspernatur excepturi iusto aliquid quaerat pariatur quod optio doloremque, fugit nulla autem corporis numquam placeat odit praesentium ducimus iure voluptates, perspiciatis consectetur a error suscipit? Qui totam vero corporis, velit illo illum. Libero ad sapiente laboriosam laudantium officiis facilis consequuntur explicabo tempore provident.</span>
+    </div>
+        
+         <div class="footer">  
+            <i class="fa fa-solid fa-plane"></i> <p class="footer__p">vuelos baratos</p>
+            <i class="fa fa-solid fa-plane"></i> <p class="footer__p">vuelo + hotel</p>
+            <i class="fa fa-solid fa-plane"></i><p class="footer__p">circuitos</p>
+            <i class="fa fa-solid fa-plane"></i><p class="footer__p">mayores</p>
+            <i class="fa fa-solid fa-plane"></i><p class="footer__p">parques temáticos</p>
+            <i class="fa fa-solid fa-plane"></i><p class="footer__p">última hora</p>
+            <i class="fa fa-solid fa-plane"></i><p class="footer__p">europa</p>
+            <i class="fa fa-solid fa-plane"></i><p class="footer__p">caribe</p>
         </div>
     <div class="fimage"> 
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
+        <img src="./images/publi.jpeg" alt=""> 
+        <img src="./images/publi.jpeg" alt=""> 
+        <img src="./images/publi.jpeg" alt=""> 
+    </div> 
+    <div class="aside__div--wrapper">
+        <div class="aside__div--box">
+            <h3> Sobre nosotros</h3>
+            <p>Quienes somos</p>
+            <p>Tarjeta El Corte Inglés</p>
+            <p>Trabaja con nosotros</p>
+        </div>
+    <div class="aside__div--box">
+        <h3> Planea tu viaje</h3>
+        <p>Guías de viaje</p>
+        <p>Eventos</p>
+        <p>Grupos</p>
     </div>
-    <p> Sobre nosotros</p>
-    <ul>
-        <li>quienes somos</li>
-        <li>quienes somos</li>
-        <li>quienes somos</li>
-        <li>quienes somos</li>
-        <li>quienes somos</li>
-    </ul>
-    <p> planea tu viaje</p>
-    <ul>
-        <li>blog de viajes</li>
-        <li>blog de viajes</li>
-        <li>blog de viajes</li>
-        <li>blog de viajes</li>
-        <li>blog de viajes</li>
-        <li>blog de viajes</li>
-    </ul>
-    
-    <p> información importante</p>
-    <ul>
-        <li>condiciones generales</li>
-        <li>condiciones generales</li>
-        <li>condiciones generales</li>
-    </ul>
+    <div class="aside__div--box">
+        <h3> Internacional</h3>
+        <p>Viajar a EEUU</p>
+        <p>Viajar a Asia</p>
+        <p>Viajar a América Latina</p>
+    </div>
+    <div class="aside__div--box">
+        <h3> Políticas Generales</h3>
+    <p>Condiciones Generales</p>
+    <p>Auto Check-in</p>
+    <p>Atención al Cliente</p>
+    </div>
+
+ </div>
     </aside>
-</main>
+</body>
+
 <footer> 
-    <img src="" alt=""> 
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
-    <img src="" alt="">
+    <img class="card" src="./images/card1.jpeg" alt="tarjeta Corte Inglés"> 
+    <h4>Con las mejores facilidades de pago</h4>
+    <h4>Con la calidad de viajes de El Corte Inglés</h4>
+<!-- <div class="footer__title"> -->
+<!--  -->
+    <!-- <img class="tripadvisor" src="./images/tripadvisor.png" alt="">  -->
+    <!-- <h4>Ahora con las opiniones de Tripadvisor</h4> -->
+    <div class="triangle">
+        <div class="footer__title">
+
+            <img class="tripadvisor" src="./images/tripadvisor.png" alt=""> 
+            <h4 class="footer__title--triangle"> Ahora con las opiniones de Tripadvisor</h4>
+    </div>
+
+</div>
+
+   
 
 </footer>
 </html>
